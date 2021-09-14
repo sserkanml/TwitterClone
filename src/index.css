@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ .arda:hover{
+opacity: 0.9;
+}
+li{
+    list-style: none;
+    text-decoration:none;
+}
+.liTik:hover{
+    background:rgba(231, 231, 232, 1);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.container:hover{
+    background:rgba(231, 231, 232, 1);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.starPage:hover{
+    border-radius: 50px;
+    background:rgba(231, 231, 232, 1);
+    cursor: pointer;
+}
+#post:focus{
+outline: none;
+}
+.blurs:hover{
+   opacity: .9;
+   cursor: pointer;
+}
+.gundemBas svg:hover{
+    background:rgba(231, 231, 232, 1) ;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+
