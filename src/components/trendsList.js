@@ -6,7 +6,7 @@ export default function TrendsList(props) {
         <div style={{display:"flex",justifyContent:"space-between",marginTop:"30px"}}>
             <div style={{display:"flex",flexDirection:"column"}}>
             <span style={{color:"rgba(0,0,0,0.6)"}}>{props.where}</span>
-            <h2 style={{marginTop:"2px",fontSize:"23px"}}>{props.baslık}</h2>
+            <h2 style={{marginTop:"2px",fontSize:"23px",color:"rgba(0,0,0,.9)"}}>{props.baslık}</h2>
             <span style={{marginTop:"-15px",color:"rgba(0,0,0,0.6)"}}>{props.tweet}</span>
             </div>
             <div className="threeDot">
